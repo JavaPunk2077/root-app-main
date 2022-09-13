@@ -1,0 +1,41 @@
+.question{
+    width: 98.05%;
+}
+
+.qheader{
+    width: 102%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../../../assets/pictures/Barner-Question.jpg);
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+.qcenter{
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    background-size: cover;
+}
+
+.margincenter{
+    margin: auto;
+    width: 90%;
+    height: 99%;
+    padding: 10px;
+}
+
+.margincenter{
+    text-align: center;
+    font-size: 24px;
+}
+
+.test{
+    background-color: white;
+    color: black;
+}
+  

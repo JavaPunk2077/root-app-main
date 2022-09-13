@@ -1,0 +1,72 @@
+.login{
+    width: 98.05%;
+}
+
+.lheader{
+    width: 102%;
+    height: 924px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../../assets/pictures/Login.jpg);
+    color: white;
+}
+
+.lbackground{
+    background-color: rgba(5, 5, 5, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scard{
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.tittlecenter{
+    text-align: center;
+    padding: 10px;
+}
+
+.textpadding{
+    padding: 10px;
+}
+
+.buttonpadding{
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: px;
+}
+
+.forgotpadding{
+    padding: 10px;
+}
+
+.orpadding{
+    padding: 20px;
+}
+
+.facebook{
+    color: white;
+    margin: 2.5px;
+}
+
+.facebook div{
+    color: white;
+}
+
+.twitter{
+    color: white;
+    margin: 2.5px;
+}
+
+.apple{
+    color: white;
+    margin: 2.5px;
+}
+
+.textwhite{
+    color: white;
+}

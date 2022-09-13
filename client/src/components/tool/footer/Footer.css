@@ -1,0 +1,39 @@
+footer{
+    box-sizing: border-box;
+    width: 98.05%;
+}
+
+.fheader{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 350px;
+    background-color: #2C2C2C;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.fcolumn{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fcenter{
+    margin: auto;
+    padding: 50px;
+    width: 60%;
+    height: 95%;
+    padding: 10px;
+}
+
+.a{
+    margin-top: 65px;
+  }
+
+.b{
+    margin-top: 10px;
+}

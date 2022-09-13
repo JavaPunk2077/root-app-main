@@ -1,0 +1,25 @@
+.crbarner{
+    width: 98.05%;
+}
+
+.crheader{
+    width: 102%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../../../assets/pictures/Barner-Home.jpg);
+    color: white;
+}
+
+.crheaderText{
+    background-color: rgba(5, 5, 5, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crname{
+font-size: px;
+}
