@@ -4,6 +4,7 @@ import Alert from '@mui/material/Alert';
 import { Link , useNavigate } from "react-router-dom";
 import Snackbar from '@mui/material/Snackbar';
 import Stack from '@mui/material/Stack';
+import Switch from '@mui/material/Switch';
 import Button from '@mui/material/Button';
 import Navbar from '../../tool/navbar/Navbar'
 import Box from '@mui/material/Box';
@@ -38,19 +39,20 @@ const Login = () => {
   const navigate = useNavigate()
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [type, setType] = useState(false);
-  const [label, setLabel] = useState("password");
+  const [auth, setAuth] = React.useState(false);
+  const [label, setLabel] = useState(null);
 
-  useEffect(() => {
-    if(type === false){
-      setType(true)
-      setLabel("text")
+  console.log(auth)
+
+  const change = (event) => {
+    setAuth(event.target.checked);
+    if(auth == true){
+      return setLabel("password")
     }
-    else{
-      setType(false)
-      setLabel("password")
+    else if(auth == false){
+      return setLabel("text")
     }
-  }, [])
+  };
 
   const login = async (e) => {
     e.preventDefault();
@@ -101,8 +103,8 @@ const Login = () => {
                             </Typography>
                             <Box sx={{ m: 0.5 }}>
                                 <TextField id="email" label="Email" variant="outlined" margin="normal" helperText="Please enter your email" type="email" value={email}   onChange={(e) => setEmail(e.target.value)} required fullWidth />
-                                <TextField id="password" label={label} variant="outlined" margin="normal" helperText="Please enter your password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required fullWidth />
-                                <input type="checkbox" onclick={(e) => setType(e.target.value)}/>Show Password
+                                <TextField id="password" label="password" variant="outlined" margin="normal" helperText="Please enter your password" type={label} value={password} onChange={(e) => setPassword(e.target.value)} required fullWidth />
+                                <Switch checked={auth} onChange={change} />Show Password
                             </Box>
                             <Button type="submit" sx={{ textTransform: 'none' }} variant="contained" className='buttonpadding' color='success' onClick={(e) => login(e)} fullWidth>Login</Button>
                             <Typography variant="body2" sx={{ fontWeight: 'light' , textAlign: 'left'  }}>

@@ -16,10 +16,7 @@ const Loading = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={Root} className="App-logo" alt="logo" />
-        <p>
             <ClipLoader size={50} color={'#F39405'} loading={loading}/>
-        </p>
       </header>
     </div>
   )
