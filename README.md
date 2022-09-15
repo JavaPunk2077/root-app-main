@@ -2,4 +2,4 @@
 
 asdasdasda
 
-![Alt text](.\client\src\assets\root.png "Optional title")
+![Alt text](/client/src/assets/Root.png "Optional title")
