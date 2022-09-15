@@ -2,4 +2,4 @@
 
 asdasdasda
 
-![Alt text](D:\Picture\Crusader.jpg "Optional title")
+![Alt text](.\client\src\assets\root.png "Optional title")
