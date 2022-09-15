@@ -38,6 +38,19 @@ const Login = () => {
   const navigate = useNavigate()
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [type, setType] = useState(false);
+  const [label, setLabel] = useState("password");
+
+  useEffect(() => {
+    if(type === false){
+      setType(true)
+      setLabel("text")
+    }
+    else{
+      setType(false)
+      setLabel("password")
+    }
+  }, [])
 
   const login = async (e) => {
     e.preventDefault();
@@ -88,7 +101,8 @@ const Login = () => {
                             </Typography>
                             <Box sx={{ m: 0.5 }}>
                                 <TextField id="email" label="Email" variant="outlined" margin="normal" helperText="Please enter your email" type="email" value={email}   onChange={(e) => setEmail(e.target.value)} required fullWidth />
-                                <TextField id="password" label="Password" variant="outlined" margin="normal" helperText="Please enter your password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required fullWidth />
+                                <TextField id="password" label={label} variant="outlined" margin="normal" helperText="Please enter your password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required fullWidth />
+                                <input type="checkbox" onclick={(e) => setType(e.target.value)}/>Show Password
                             </Box>
                             <Button type="submit" sx={{ textTransform: 'none' }} variant="contained" className='buttonpadding' color='success' onClick={(e) => login(e)} fullWidth>Login</Button>
                             <Typography variant="body2" sx={{ fontWeight: 'light' , textAlign: 'left'  }}>
