@@ -2,4 +2,4 @@
 
 asdasdasda
 
-![Alt text](D:\Picture\Crusader.jpg "Optional title")
+![Alt text](.\Picture\Crusader.jpg "Optional title")
