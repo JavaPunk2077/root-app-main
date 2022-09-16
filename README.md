@@ -53,3 +53,4 @@ and copy your command palette</sub>
 7)<sub>Last, place your command palette to server file too.</sub>
 
 ![Main](/client/src/assets/readme/Connect-Mongodb44.PNG"Optional title")
+
