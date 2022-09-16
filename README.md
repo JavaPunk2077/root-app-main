@@ -54,3 +54,10 @@ and copy your command palette
 
 ![Main](/client/src/assets/readme/Connect-Mongodb44.PNG "Optional title")
 
+# How to run server
+
+open command prompt and write your location directry file,
+last write "node <filename.js>" to run server
+
+![Main](/client/src/assets/readme/Capture.PNG "Optional title")
+
