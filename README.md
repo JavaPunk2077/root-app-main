@@ -1,4 +1,4 @@
-## root-app-main
+# root-app-main
 
 ![Main](/client/src/assets/readme/Main.png "Optional title")
 
