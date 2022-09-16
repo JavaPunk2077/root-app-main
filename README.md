@@ -39,18 +39,18 @@ use write code with MERN stack.
 5)<sub>Click "Connect using Vs code" to connect your visual studio,
 and copy your command palette</sub>
 
-![Main](/client/src/assets/readme/mongo-connect.png"Optional title")
+![Main](/client/src/assets/readme/mongo-connect.png "Optional title")
 
-![Main](/client/src/assets/readme/Screenshot%202022-09-16%20at%2015-52-20%20Database%20Deployments%20Cloud%20MongoDB%20Cloud.png"Optional title")
+![Main](/client/src/assets/readme/Screenshot%202022-09-16%20at%2015-52-20%20Database%20Deployments%20Cloud%20MongoDB%20Cloud.png "Optional title")
 
 
 6)<sub>Put your command palette, view > command platte > write "MongoDB: Connect" > click "Connect" > place your command palette and change your username and password.</sub>
 
-![Main](/client/src/assets/readme/Mongo3.PNG"Optional title")
+![Main](/client/src/assets/readme/Mongo3.PNG "Optional title")
 
-![Main](/client/src/assets/readme/Put.PNG"Optional title")
+![Main](/client/src/assets/readme/Put.PNG "Optional title")
 
 7)<sub>Last, place your command palette to server file too.</sub>
 
-![Main](/client/src/assets/readme/Connect-Mongodb44.PNG"Optional title")
+![Main](/client/src/assets/readme/Connect-Mongodb44.PNG "Optional title")
 
