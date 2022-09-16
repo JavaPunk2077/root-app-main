@@ -1,10 +1,8 @@
 # root-app-main
 
-asdasdasda
-
 ![Alt text](/client/src/assets/readme/Main.png "Optional title")
 
-Introduction
+# Introduction
 
 This is a code repository for the corresponding video tutorial.
 
