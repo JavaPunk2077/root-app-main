@@ -14,43 +14,43 @@ use write code with MERN stack.
 
 # How to connect MongoDB with Visual Studio
 
-1)<sub>Go to mongodb atlas and login your account.</sub>
+1)Go to mongodb atlas and login your account.
 
 ![Main](/client/src/assets/readme/Mongodb.png "Optional title")
 
 ![Main](/client/src/assets/readme/mongo-login.png "Optional title")
 
-2)<sub>Create database access user</sub>
+2)Create database access user
 
 ![Main](/client/src/assets/readme/data-access2.PNG "Optional title")
 
 ![Main](/client/src/assets/readme/mongo-menu.PNG "Optional title")
 
-3)<sub>Create database and connect database</sub>
+3)Create database and connect database
 
 ![Main](/client/src/assets/readme/Screenshot%202022-09-16%20at%2015-41-31%20Database%20Deployments%20Cloud%20MongoDB%20Cloud.png "Optional title")
 
 ![Main](/client/src/assets/readme/data-access2.PNG "Optional title")
 
-4)<sub>Click "Add Your Current IP address" to connect Your IP address</sub>
+4)Click "Add Your Current IP address" to connect Your IP address
 
 ![Main](/client/src/assets/readme/Screenshot%202022-09-16%20at%2015-47-11%20Database%20Deployments%20Cloud%20MongoDB%20Cloud.png "Optional title")
 
-5)<sub>Click "Connect using Vs code" to connect your visual studio,
-and copy your command palette</sub>
+5)Click "Connect using Vs code" to connect your visual studio,
+and copy your command palette
 
 ![Main](/client/src/assets/readme/mongo-connect.png "Optional title")
 
 ![Main](/client/src/assets/readme/Screenshot%202022-09-16%20at%2015-52-20%20Database%20Deployments%20Cloud%20MongoDB%20Cloud.png "Optional title")
 
 
-6)<sub>Put your command palette, view > command platte > write "MongoDB: Connect" > click "Connect" > place your command palette and change your username and password.</sub>
+6)Put your command palette, view > command platte > write "MongoDB: Connect" > click "Connect" > place your command palette and change your username and password.
 
 ![Main](/client/src/assets/readme/Mongo3.PNG "Optional title")
 
 ![Main](/client/src/assets/readme/Put.PNG "Optional title")
 
-7)<sub>Last, place your command palette to server file too.</sub>
+7)Last, place your command palette to server file too.
 
 ![Main](/client/src/assets/readme/Connect-Mongodb44.PNG "Optional title")
 
