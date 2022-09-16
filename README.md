@@ -2,7 +2,7 @@
 
 ![Main](/client/src/assets/readme/Main.png "Optional title")
 
-<sub>Introduction </sub>
+# Introduction
 
 This is a code repository for MERN stack tutorial.
 
@@ -11,3 +11,4 @@ use MongoDB to database.
 
 By the end, you will have a strong understanding of how to write and 
 use write code with MERN stack.
+
