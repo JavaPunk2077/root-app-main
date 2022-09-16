@@ -1,11 +1,13 @@
 # root-app-main
 
-![Alt text](/client/src/assets/readme/Main.png "Optional title")
+![Main](/client/src/assets/readme/Main.png "Optional title")
 
-# Introduction
+<sub>Introduction </sub>
 
-This is a code repository for the corresponding video tutorial.
+This is a code repository for MERN stack tutorial.
 
-In this video, we will create a full Realtime Chat Application. We're going to use React on the front end, with NodeJS + Socket.io web socket library on the back end.
+In this repository, we will create a full CRUD with MERN stack. We're going to use React on the front end, with NodeJS on the back end, and
+use MongoDB to database.
 
-By the end of this video, you will have a strong understanding of how to send and receive messages using web sockets and Socket.io to make any real-time application.
+By the end, you will have a strong understanding of how to write and 
+use write code with MERN stack.
