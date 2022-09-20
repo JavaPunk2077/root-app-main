@@ -1,0 +1,26 @@
+.barnerm{
+    width: 98.05%;
+}
+
+.bmheader{
+    width: 102%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../../../assets/pictures/Barner-Main.jpg);
+    color: white;
+}
+
+.bmheaderText{
+    background-color: rgba(5, 5, 5, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bmheaderText h1{
+    font-size: 45px;
+    font-family: "pacifuco";
+}

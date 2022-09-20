@@ -1,0 +1,11 @@
+.line{
+    width: 98.05%;
+}
+
+.backcolor{
+    width: 102%;
+    height: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(56, 56, 56);
+}

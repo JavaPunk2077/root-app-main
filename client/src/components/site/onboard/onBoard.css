@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.onboard{
+    width: 100%;
+}
+
+.oheader{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    height: 700px; /* Should be removed. Only for demonstration */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.ocolumn{
+    margin: auto;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+}
+
+.ocenter{
+    margin: auto;
+    padding: 50px;
+    width: 60%;
+    height: 95%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.oh2center{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hint{
+    text-align: center;
+}
+
+.betpadding{
+    padding: 10px;
+    margin: auto;  
+}

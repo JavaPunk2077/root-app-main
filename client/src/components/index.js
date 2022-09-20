@@ -1,0 +1,8 @@
+export { default as Home } from './site/home/Home'
+export { default as Login } from './site/login/Login'
+export { default as Onboard } from './site/onboard/onBoard'
+export { default as Register } from './site/register/Register'
+export { default as Contributor } from './site/contributor/Contributor'
+export { default as Main } from './site/main/Main'
+export { default as Creater } from './site/creater/Creater'
+export { default as Editer } from './site/edit/edit'

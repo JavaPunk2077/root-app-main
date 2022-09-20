@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+  }
+  
+.register{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.rheader{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    height: 700px; /* Should be removed. Only for demonstration */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.rcolumn{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 640px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.rcenter{
+    margin: auto;
+    padding: 50px;
+    width: 75%;
+    height: 95%;
+    padding: 10px;
+}
+
+.imagelist{
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+}
+
+.regimg{
+    border-radius: 10px;
+}
